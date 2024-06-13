@@ -45,5 +45,8 @@ function incrementDownloads() {
     }
     updateDisplay();
 }
+function name(params) {
+    console.log("object")
+}
 
 intervalId = setInterval(incrementDownloads, 10); // Store the interval ID
